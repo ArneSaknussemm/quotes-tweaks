@@ -46,13 +46,6 @@ function titulos_cotizador($title, $post_id)
 	if (is_checkout() && in_the_loop())
 	{
 		if (cart_contains_quotable()) return 'Finalizar Cotización';
-/* 		add_filter( 'woocommerce_endpoint_order-received_title', 'misha_thank_you_title' );
- 
-		function misha_thank_you_title( $old_title ){
-		
-			 return 'You\'re awesome!';
-		
-		}	 */
 		elseif (orden_recibida_estado()=='pending')	return 'Solicitud de cotización enviada';
 		elseif (!empty(orden_recibida_estado())) return 'Pago realizado';
 	}
