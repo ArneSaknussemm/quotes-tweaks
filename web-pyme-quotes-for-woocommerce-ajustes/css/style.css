@@ -1,0 +1,32 @@
+/**
+ * OCULTA COTIZADOR
+ * Sólo funciona con plantilla Kadence
+ */
+/*Carrito colgante*/
+.cotizacion .woocommerce.widget_shopping_cart .total,
+/*Página Carrito*/
+.woocommerce-cart.cotizacion .shop_table .product-price,
+.woocommerce-cart.cotizacion .shop_table .product-subtotal,
+.woocommerce-cart.cotizacion .cart_totals  table,
+.woocommerce-cart.cotizacion .cart_totals  h2,
+/*Finalizar Compra*/
+ .woocommerce-checkout.cotizacion .woocommerce-checkout-review-order-table .product-total,
+.woocommerce-checkout.cotizacion .woocommerce-checkout-review-order-table tfoot,
+/*Página Thank you-pendiente*/
+.cotizacion.pendiente .woocommerce-order-overview__total,
+.cotizacion.pendiente .woocommerce-table--order-details .product-total,
+.cotizacion.pendiente .woocommerce-table--order-details tfoot
+{
+	display:none;
+}
+/*Diagramación carrito*/
+.woocommerce-cart.cotizacion .kadence-woo-cart-form-wrap .woocommerce-cart-form, .woocommerce-cart.cotizacion .kadence-woo-cart-form-wrap .cart-collaterals
+{
+	float:none;
+	display:inline-block;
+}
+.woocommerce-cart.cotizacion .kadence-woo-cart-form-wrap
+{
+	text-align:center;
+}
+/*-FIN OCULTA COTIZADOR-*/
